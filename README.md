@@ -2,26 +2,31 @@
 This is my first project as a data analyst under DSA. I am not perfect, but I am learning and aiming to improve as I embark on this new journey.
 
 1.Which Product Category Had The Highest Sales?				
+
 Product_Category	Total_Sales			
 Technology	         5984248.175			
 				
 2A.What Are The Top 3  Region In Term Of Sales 				
+
 Region	Total_sales			
 West	3597549.27			
 Ontario	3063212.476			
 Prarie	2837304.605			
 				
 2B.What Are The Bottom 3  Region In Term Of Sales				
+
 Region	               Total_sales			
 Nunavut	                116376.4838			
 Northwest Territories	800847.3309			
 Yukon	                975867.3757			
 				
 3.What were the total sales of appliance in Ontario?				
+
 Region	       appliance_sales			
 Ontario	         202346.8396			
 				
 4.Advise the management of kms on what to do to increase the revenue from the bottom 10 customers				
+
 Customer_name	                Total_sales			
 Jeremy Farry	                 85.72000217			
 Natalie DeCherney	         125.9000015			
@@ -33,6 +38,7 @@ Eric Murdock	                 343.3279991
 Chris McAfee	                 350.1800041			
 Rick Huthwaite	                 415.8199806			
 Mark Hamilton	                 450.9900055
+
 Advice to Management:
 	•	Offer loyalty discounts or exclusive offers
 	•	Bundle products or offer free shipping
@@ -40,12 +46,14 @@ Advice to Management:
 	•	Investigate if they’re receiving poor service/shipping delays
 				
 5.KMS Incurred the most shipping cost using which shiping methos?			
+
 ship_mode	Total_shipping_cost			
 Delivery Truck	51971.93974			
 Regular Air	48008.18981			
 Express Air	7850.909962			
 				
 6.Who are the most valuable customers, and what products or services do they typically purchase?			
+
 Customer_name	         Total_sales			
 Emily Phan	          117124.4353			
 Deborah Brumfield	  97433.13462			
@@ -59,6 +67,7 @@ John Lucas	          79696.18585
 Liz MacKendrick	          76306.43164			
 				
 6b. what products or services do they typically purchase?				
+
 customer_name	        product_category			
 Muhammed MacIntyre	Office Supplies			
 Ruben Dartt	        Office Supplies			
@@ -72,23 +81,28 @@ Sample Company A	Technology
 Tamara Dahlen	        Technology			
 				
 7. Which small business customers had the highest sales?				
+
 Customer_Name	Total_Sales			
 Dennis Kane	75967.59322			
 				
 8.Which corporate customer placed the most number of order in 2009-2012				
+
 Customer_Name	Total_Orders			
 Adam Hart	27			
 				
 9. Which consumer customer was the most profitable one?				
+
 Customer_Name	total_profit			
 Emily Phan	34005.44			
 				
 10.Which customer returned items, and what segment do they belong to?				
+
 customer_name	customer_segment			
     0	                0			
 				
-11. If the delivery truck is the most economical but the slowest shipping method and express air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the order priority? Explain your answer				
-Order_Priority	Ship_Mode	Total_Orders	Total_Shipping_Cost	Avg_Cost_Per_Order
+11. If the delivery truck is the most economical but the slowest shipping method and express air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the order priority? Explain your answer
+
+Order_Priority	Ship_Mode	Total_Orders	Total_Shipping_Cost	
 Critical	Delivery Truck	228	10783.81995	47.29745591
 Critical	Express Air	200	1742.099988	8.71049994
 Critical	Regular Air	1180	8586.759962	7.276915222
@@ -105,6 +119,7 @@ Not Specified	 Delivery Truck	215	9388.009943	43.66516253
 Not Specified	Express Air	180	1470.059992	8.166999957
 Not Specified	Regular Air	1277	9734.079964	7.622615477
 ![image](https://github.com/user-attachments/assets/43c7ba56-4953-4bb4-a717-c9712a0383aa)
+
 
 Based on the analysis, KMS mostly used Delivery Truck for low-priority orders and Express Air for high-priority ones, which indicates that shipping costs were appropriately allocated.
 However, we found some Express Air shipments for Medium or Low priority orders, which may be optimized to reduce unnecessary cost.
